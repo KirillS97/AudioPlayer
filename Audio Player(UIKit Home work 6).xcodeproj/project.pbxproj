@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1FC1032A30846C00680391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1022A30846C00680391 /* AppDelegate.swift */; };
+		ED1FC1052A30846C00680391 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1042A30846C00680391 /* SceneDelegate.swift */; };
+		ED1FC1072A30846C00680391 /* SongsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1062A30846C00680391 /* SongsListViewController.swift */; };
+		ED1FC10A2A30846C00680391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1FC1082A30846C00680391 /* Main.storyboard */; };
+		ED1FC10C2A30846E00680391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1FC10B2A30846E00680391 /* Assets.xcassets */; };
+		ED1FC10F2A30846E00680391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1FC10D2A30846E00680391 /* LaunchScreen.storyboard */; };
+		ED1FC1172A3084D900680391 /* ExtensionForUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1162A3084D900680391 /* ExtensionForUIImage.swift */; };
+		ED1FC11C2A30851800680391 /* Mike Shinoda feat. Kailee Morgue - In My Head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED1FC11B2A30851800680391 /* Mike Shinoda feat. Kailee Morgue - In My Head.mp3 */; };
+		ED1FC11E2A30853E00680391 /* Taylor Swift - Shake It Off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED1FC11D2A30853E00680391 /* Taylor Swift - Shake It Off.mp3 */; };
+		ED1FC1202A30857200680391 /* Music Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC11F2A30857200680391 /* Music Model.swift */; };
+		ED1FC1222A308A0A00680391 /* Audio Player Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1212A308A0A00680391 /* Audio Player Model.swift */; };
+		ED1FC1242A32110200680391 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FC1232A32110200680391 /* PlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED1FC0FF2A30846C00680391 /* Audio Player(UIKit Home work 6).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Player(UIKit Home work 6).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1FC1022A30846C00680391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED1FC1042A30846C00680391 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED1FC1062A30846C00680391 /* SongsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsListViewController.swift; sourceTree = "<group>"; };
+		ED1FC1092A30846C00680391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1FC10B2A30846E00680391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED1FC10E2A30846E00680391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED1FC1102A30846E00680391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1FC1162A3084D900680391 /* ExtensionForUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForUIImage.swift; sourceTree = "<group>"; };
+		ED1FC11B2A30851800680391 /* Mike Shinoda feat. Kailee Morgue - In My Head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mike Shinoda feat. Kailee Morgue - In My Head.mp3"; sourceTree = "<group>"; };
+		ED1FC11D2A30853E00680391 /* Taylor Swift - Shake It Off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Taylor Swift - Shake It Off.mp3"; sourceTree = "<group>"; };
+		ED1FC11F2A30857200680391 /* Music Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Music Model.swift"; sourceTree = "<group>"; };
+		ED1FC1212A308A0A00680391 /* Audio Player Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Audio Player Model.swift"; sourceTree = "<group>"; };
+		ED1FC1232A32110200680391 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1FC0FC2A30846C00680391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1FC0F62A30846C00680391 = {
+			isa = PBXGroup;
+			children = (
+				ED1FC1012A30846C00680391 /* Audio Player(UIKit Home work 6) */,
+				ED1FC1002A30846C00680391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1FC1002A30846C00680391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1FC0FF2A30846C00680391 /* Audio Player(UIKit Home work 6).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1FC1012A30846C00680391 /* Audio Player(UIKit Home work 6) */ = {
+			isa = PBXGroup;
+			children = (
+				ED1FC1022A30846C00680391 /* AppDelegate.swift */,
+				ED1FC1042A30846C00680391 /* SceneDelegate.swift */,
+				ED1FC1162A3084D900680391 /* ExtensionForUIImage.swift */,
+				ED1FC1252A32114900680391 /* View Controllers */,
+				ED1FC1262A32115E00680391 /* Models */,
+				ED1FC1212A308A0A00680391 /* Audio Player Model.swift */,
+				ED1FC1082A30846C00680391 /* Main.storyboard */,
+				ED1FC10B2A30846E00680391 /* Assets.xcassets */,
+				ED1FC10D2A30846E00680391 /* LaunchScreen.storyboard */,
+				ED1FC1102A30846E00680391 /* Info.plist */,
+				ED1FC11A2A30850600680391 /* Music */,
+			);
+			path = "Audio Player(UIKit Home work 6)";
+			sourceTree = "<group>";
+		};
+		ED1FC11A2A30850600680391 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				ED1FC11D2A30853E00680391 /* Taylor Swift - Shake It Off.mp3 */,
+				ED1FC11B2A30851800680391 /* Mike Shinoda feat. Kailee Morgue - In My Head.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		ED1FC1252A32114900680391 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED1FC1062A30846C00680391 /* SongsListViewController.swift */,
+				ED1FC1232A32110200680391 /* PlayerViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ED1FC1262A32115E00680391 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED1FC11F2A30857200680391 /* Music Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1FC0FE2A30846C00680391 /* Audio Player(UIKit Home work 6) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1FC1132A30846E00680391 /* Build configuration list for PBXNativeTarget "Audio Player(UIKit Home work 6)" */;
+			buildPhases = (
+				ED1FC0FB2A30846C00680391 /* Sources */,
+				ED1FC0FC2A30846C00680391 /* Frameworks */,
+				ED1FC0FD2A30846C00680391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio Player(UIKit Home work 6)";
+			productName = "Audio Player(UIKit Home work 6)";
+			productReference = ED1FC0FF2A30846C00680391 /* Audio Player(UIKit Home work 6).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1FC0F72A30846C00680391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ED1FC0FE2A30846C00680391 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = ED1FC0FA2A30846C00680391 /* Build configuration list for PBXProject "Audio Player(UIKit Home work 6)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1FC0F62A30846C00680391;
+			productRefGroup = ED1FC1002A30846C00680391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1FC0FE2A30846C00680391 /* Audio Player(UIKit Home work 6) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1FC0FD2A30846C00680391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1FC10F2A30846E00680391 /* LaunchScreen.storyboard in Resources */,
+				ED1FC11C2A30851800680391 /* Mike Shinoda feat. Kailee Morgue - In My Head.mp3 in Resources */,
+				ED1FC10C2A30846E00680391 /* Assets.xcassets in Resources */,
+				ED1FC10A2A30846C00680391 /* Main.storyboard in Resources */,
+				ED1FC11E2A30853E00680391 /* Taylor Swift - Shake It Off.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1FC0FB2A30846C00680391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1FC1072A30846C00680391 /* SongsListViewController.swift in Sources */,
+				ED1FC1172A3084D900680391 /* ExtensionForUIImage.swift in Sources */,
+				ED1FC1202A30857200680391 /* Music Model.swift in Sources */,
+				ED1FC1242A32110200680391 /* PlayerViewController.swift in Sources */,
+				ED1FC1032A30846C00680391 /* AppDelegate.swift in Sources */,
+				ED1FC1052A30846C00680391 /* SceneDelegate.swift in Sources */,
+				ED1FC1222A308A0A00680391 /* Audio Player Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED1FC1082A30846C00680391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1FC1092A30846C00680391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED1FC10D2A30846E00680391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1FC10E2A30846E00680391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED1FC1112A30846E00680391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED1FC1122A30846E00680391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1FC1142A30846E00680391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NXVFBWNG9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Audio Player(UIKit Home work 6)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kirill-Serov.Audio-Player-UIKit-Home-work-6-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1FC1152A30846E00680391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NXVFBWNG9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Audio Player(UIKit Home work 6)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kirill-Serov.Audio-Player-UIKit-Home-work-6-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1FC0FA2A30846C00680391 /* Build configuration list for PBXProject "Audio Player(UIKit Home work 6)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1FC1112A30846E00680391 /* Debug */,
+				ED1FC1122A30846E00680391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1FC1132A30846E00680391 /* Build configuration list for PBXNativeTarget "Audio Player(UIKit Home work 6)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1FC1142A30846E00680391 /* Debug */,
+				ED1FC1152A30846E00680391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED1FC0F72A30846C00680391 /* Project object */;
+}
